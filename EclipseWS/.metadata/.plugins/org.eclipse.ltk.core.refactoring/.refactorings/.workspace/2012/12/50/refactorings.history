@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 5 resources" deleteContents="false" description="Delete 5 resources" element1="/MotorServer/src/Server/static/down.png" element2="/MotorServer/src/Server/static/spin-arrows.gif" element3="/MotorServer/src/Server/static/spin-arrows-left.gif" element4="/MotorServer/src/Server/static/spin-arrows-right.gif" element5="/MotorServer/src/Server/static/up.png" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="5" stamp="1355392749821"/>
+</session>

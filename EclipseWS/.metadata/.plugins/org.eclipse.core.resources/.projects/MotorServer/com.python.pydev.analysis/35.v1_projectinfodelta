@@ -1,0 +1,7 @@
+INSTUPServer.serverDaemon
+/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/serverDaemon.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|1
+MyDaemon=1
+daemon=4
+run=3
+Server.serverDaemon=2

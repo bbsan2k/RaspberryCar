@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;MotorServer&apos;&#x0A;- Original project: &apos;MotorServer&apos;&#x0A;- Original elements:&#x0A;     __init__.pyc&#x0A;     DriveHandler.pyc" description="Delete elements" element1="Server/__init__.pyc" element2="Server/DriveHandler.pyc" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1352989701907" subPackages="false" version="1.0"/>
+</session>

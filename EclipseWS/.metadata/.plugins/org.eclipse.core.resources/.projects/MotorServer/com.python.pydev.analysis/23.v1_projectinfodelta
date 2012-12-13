@@ -1,0 +1,13 @@
+INSTUPServer.index
+/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/index.py
+INFOS:&&3|1|2|0&&2|3|2|0&&3|4|2|0&&3|5|2|0&&1|6|2|0&&2|7|2|6&&2|8|2|6&&2|9|2|6&&1|10|2|0&&2|7|2|10&&2|7|2|0
+POST=9
+Server.index=2
+GET=8
+drive=3
+driveForm=5
+webServer=6
+run=7
+rpcServer=10
+render=4
+handler=1

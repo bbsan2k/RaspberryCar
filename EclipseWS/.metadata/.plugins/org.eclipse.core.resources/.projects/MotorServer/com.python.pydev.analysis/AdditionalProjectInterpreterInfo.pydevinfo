@@ -1,0 +1,77 @@
+-- VERSION_3
+-- START DISKCACHE
+/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/.metadata/.plugins/org.eclipse.core.resources/.projects/MotorServer/com.python.pydev.analysis/v1_indexcache
+.v1_indexcache
+pi@192.168.178.67.DriveHandler|0|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/pi@192.168.178.67/DriveHandler.py
+Server.__init__|0|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/__init__.py
+Server.daemon|0|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/daemon.py
+pi@192.168.178.67.index|0|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/pi@192.168.178.67/index.py
+Server.serverDaemon|0|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/serverDaemon.py
+Server.Daemon|0|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/Daemon.py
+Server.index|0|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/index.py
+Server.test|0|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/test.py
+pi@192.168.178.67.test|0|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/pi@192.168.178.67/test.py
+Server.DriveHandler|0|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/DriveHandler.py
+pi@192.168.178.67.__init__|0|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/pi@192.168.178.67/__init__.py
+Server.sample|0|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/sample.py
+pi@192.168.178.67.sample|0|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/pi@192.168.178.67/sample.py
+-- END DISKCACHE
+-- START DICTIONARY
+21
+20=Daemon.__init__
+7=pi@192.168.178.67.DriveHandler
+15=Daemon
+2=Server.__init__
+4=Server.daemon
+17=MyDaemon
+5=pi@192.168.178.67.index
+16=webServer
+14=driveHandler
+21=rpcServer
+3=Server.Daemon
+13=Server.serverDaemon
+19=hello
+6=Server.index
+11=Server.test
+12=pi@192.168.178.67.test
+8=Server.DriveHandler
+18=drive
+1=pi@192.168.178.67.__init__
+9=Server.sample
+10=pi@192.168.178.67.sample
+-- END DICTIONARY
+-- START TREE 1
+14
+S|0|
+app|2|app!11@app!19@
+dae|2|Daemon!25@Daemon!33@
+dri|8|drive!42@driveForm!51@drive!50@drive!9@driveHandler!57@driveHandler!65@drive!17@driveForm!43@
+han|8|handler!11@handler!43@handler!75@handler!83@handler!91@handler!99@handler!51@handler!19@
+hel|2|hello!9@hello!17@
+i|2|i!83@i!75@
+myd|1|MyDaemon!105@
+ren|2|render!43@render!51@
+rpc|2|rpcServer!49@rpcServer!41@
+run|1|run!50@
+ser|0|
+url|2|urls!11@urls!19@
+web|2|webServer!41@webServer!49@
+-- END TREE
+-- START TREE 2
+15
+__d|2|__del__!14&58@__del__!14&66@
+__i|4|__init__!14&66@__init__!15&34@__init__!15&26@__init__!14&58@
+app|2|app!16&43@app!16&51@
+dae|3|daemonize!15&34@daemon!17&107@daemonize!15&26@
+del|2|delpid!15&34@delpid!15&26@
+dri|2|drive!14&58@drive!14&66@
+get|6|GET!16&50@GET!16&42@GET!18&18@GET!19&18@GET!18&10@GET!19&10@
+pid|2|pidfile!20&27@pidfile!20&35@
+pos|2|POST!16&50@POST!16&42@
+res|2|restart!15&26@restart!15&34@
+run|5|run!21&50@run!21&42@run!17&106@run!15&34@run!15&26@
+sta|2|start!15&34@start!15&26@
+std|6|stdout!20&35@stdout!20&27@stderr!20&35@stdin!20&27@stderr!20&27@stdin!20&35@
+sto|2|stop!15&26@stop!15&34@
+url|2|urls!16&43@urls!16&51@
+-- END TREE

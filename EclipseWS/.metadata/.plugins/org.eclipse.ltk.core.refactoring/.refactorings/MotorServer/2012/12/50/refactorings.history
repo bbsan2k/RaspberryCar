@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MotorServer/src/Server/Daemon.py&apos; to &apos;daemon.py&apos;" description="Rename resource &apos;Daemon.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Server/Daemon.py" name="daemon.py" stamp="1355434489426" updateReferences="true"/>
+</session>
