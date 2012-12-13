@@ -11,7 +11,7 @@ import index
 
 class MyDaemon(Daemon):
         def run(self):
-            index.run()
+            index().run()
             while True:
                 time.sleep(1)
  

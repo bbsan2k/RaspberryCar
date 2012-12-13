@@ -3,6 +3,8 @@ import threading
 from web import form
 import DriveHandler
 from SimpleXMLRPCServer import SimpleXMLRPCServer as Server
+from daemon import Daemon
+
 
 ## Drivehandler
 
@@ -58,9 +60,15 @@ def run(self):
     webServer().start()
     rpcServer().start()
 
-if __name__ == "__main__":
+
+class serverDaemon(Daemon):
+    def run(self):
         webServer().start()
         rpcServer().start()
+
+if __name__ == "__main__":
+    server = serverDaemon('/tmp/pid')
+    server.start()
 
 
 
