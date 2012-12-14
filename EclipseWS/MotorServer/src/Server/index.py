@@ -17,7 +17,7 @@ def drive(direction):
     
 ## Web.py Part
 
-render = web.template.render('templates/')
+render = web.template.render('/Server/templates/')
 
 driveForm = form.Form(
               form.Button(type="submit", name = "button", html="Forward", value="fwd"),
@@ -70,6 +70,7 @@ if __name__ == "__main__":
     server = serverDaemon('/tmp/pid')
     server.start()
 
+## Daemon from https://github.com/gkmngrgn/python-daemon
 
 
 
