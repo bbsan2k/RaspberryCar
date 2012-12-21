@@ -9,10 +9,10 @@ install:
 				cd pyserial-2.6; sudo python setup.py install
 				sudo rm -rf web.py*
 				sudo rm -rf pyserial*
-				ln -s ./ /Server/
-				ln -s ./RaspCar /etc/init.d/RaspCar
+				ln -s $(CURDIR) /Server
+				sudo mv RaspCar /etc/init.d/RaspCar
 				chmod +x /etc/init.d/RaspCar
-				update-rc.d /etc/init.d/RaspCar
+				update-rc.d RaspCar defaults
 
 run:
 				sudo python index.py
