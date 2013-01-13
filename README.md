@@ -25,3 +25,7 @@ Dependencies for this project are:
 * mjpg_streamer
 
 I also used a Wifi-AP, but the project would still work if just logged in to a Wifi Network.
+
+Hardware
+----------
+I used a supported Wifi Dongle and a Logitech C170 Webcam, but this should work with every libv4l supported Webcam.
