@@ -2,4 +2,8 @@
 RaspCar Project
 ------------------------------------------------------------------
 
+This is my github for my Bachelor Thesis RaspberryCar Project (short: RaspCar).
+As this is my first public github repository, I hope I mentioned all used libs well.
+If I used libraries and didn't declare it, please just contact me and I'll mention it in this README.
+
 
