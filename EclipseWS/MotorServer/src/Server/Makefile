@@ -7,6 +7,8 @@ install:
 				wget http://pypi.python.org/packages/source/p/pyserial/pyserial-2.6.tar.gz
 				tar -xvzf pyserial-2.6.tar.gz
 				cd pyserial-2.6; sudo python setup.py install
+				git clone git://github.com/joshmarshall/jsonrpclib.git; cd jsonrpclib; python setup.py install;
+				sudo rm -rf jsonrpclib
 				sudo rm -rf web.py*
 				sudo rm -rf pyserial*
 				ln -s $(CURDIR) /Server

@@ -9,10 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "XMLRPCConnectionDelegate.h"
 
-@interface RPCConnector : NSObject <XMLRPCConnectionDelegate>
+//@interface RPCConnector : NSObject <XMLRPCConnectionDelegate>
+@interface RPCConnector : NSObject
+
 @property (nonatomic, retain) NSURL* url;
 
 
 - (void) drive:(NSString*) direction;
+- (void) setVelocity:(NSNumber*) velo;
+
 
 @end

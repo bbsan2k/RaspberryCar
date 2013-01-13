@@ -1,13 +1,4 @@
 MODULES_MANAGER_V2
-Server.DriveHandler|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/DriveHandler.py
-Server.__init__|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/__init__.py
-Server.daemon|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/daemon.py
-Server.index|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/index.py
-Server.sample|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/sample.py
-Server.serverDaemon|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/serverDaemon.py
-Server.test|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/test.py
-pi@192.168.178.67.DriveHandler|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/pi@192.168.178.67/DriveHandler.py
-pi@192.168.178.67.__init__|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/pi@192.168.178.67/__init__.py
-pi@192.168.178.67.index|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/pi@192.168.178.67/index.py
-pi@192.168.178.67.sample|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/pi@192.168.178.67/sample.py
-pi@192.168.178.67.test|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/pi@192.168.178.67/test.py
+src.Server.DriveHandler|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/DriveHandler.py
+src.Server.index|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/index.py
+src.Server.testModule|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/testModule.py

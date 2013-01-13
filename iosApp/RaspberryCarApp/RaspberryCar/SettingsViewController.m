@@ -16,6 +16,7 @@
 
 @property (strong, nonatomic) UITextField* address;
 @property (strong, nonatomic) id<RPCSettingsDelegate> delegate;
+@property (strong, nonatomic) UISlider* velocitySlider;
 
 
 @end
@@ -68,20 +69,36 @@
     
     [self.address setDelegate:self];
     
-    UIButton *submitButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [submitButton setFrame: CGRectMake(self.address.frame.origin.x,self.address.frame.origin.y+self.address.frame.size.height+5 , 40, 15)];
-    [submitButton addTarget:self action:@selector(setServer) forControlEvents:UIControlEventTouchDown];
-    [submitButton setTitle:@"Verbinden" forState:UIControlStateNormal];
-    [submitButton sizeToFit];
+    
+    UILabel *velocityLabel = [[UILabel alloc] initWithFrame:CGRectMake(self.address.frame.origin.x, self.address.frame.origin.y+self.address.frame.size.height, 200, 30)];
+    [velocityLabel setFont:[UIFont systemFontOfSize:16]];
+    [velocityLabel setTextAlignment:NSTextAlignmentCenter];
+    [velocityLabel setText:@"Max Velocity:"];
+    [velocityLabel setBackgroundColor:[UIColor clearColor]];
+    velocityLabel.textColor = [UIColor whiteColor];
+    
+    
+    self.velocitySlider = [[UISlider alloc] initWithFrame:CGRectMake(velocityLabel.frame.origin.x, velocityLabel.frame.origin.y+velocityLabel.frame.size.height, 200, 30)];
+    [self.velocitySlider setCenter:CGPointMake(self.view.frame.size.width/2, velocityLabel.frame.origin.y+velocityLabel.frame.size.height+35)];
+    [self.velocitySlider setMaximumValue:255];
+    [self.velocitySlider setMinimumValue:0];
+    [self.velocitySlider setValue:[appDelegate.settings.maxVelocity floatValue]];
+    
+    UIBarButtonItem *saveButton = [[UIBarButtonItem alloc] initWithTitle:@"Speichern" style:UIBarButtonItemStyleDone target:self action:@selector(setServer)];
+    
+    [self.navigationItem setRightBarButtonItem:saveButton];
+    
 
+    [self.view addSubview:self.velocitySlider];
+    [self.view addSubview:velocityLabel];
     [self.view addSubview: addressLabel];
     [self.view addSubview:self.address];
-    [self.view addSubview:submitButton];
     
 }
 - (void) setServer{
     AppDelegate *appDelegate = [AppDelegate sharedInstance];
     [appDelegate.settings setServerAddress:self.address.text];
+    [appDelegate.settings setMaxVelocity:[NSNumber numberWithFloat:self.velocitySlider.value]];
     [appDelegate saveContext];
     [self.delegate updateRPCController];
 }

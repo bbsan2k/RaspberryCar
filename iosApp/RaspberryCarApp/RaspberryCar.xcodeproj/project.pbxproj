@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B91ABB8616A18C5C003392E5 /* DSJSONRPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B91ABB8316A18C5C003392E5 /* DSJSONRPC.m */; };
+		B91ABB8716A18C5C003392E5 /* DSJSONRPCError.m in Sources */ = {isa = PBXBuildFile; fileRef = B91ABB8516A18C5C003392E5 /* DSJSONRPCError.m */; };
+		B91ABB8C16A1AA26003392E5 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = B91ABB8B16A1AA26003392E5 /* Settings.m */; };
 		B940D501167A1F0700D22F12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940D500167A1F0700D22F12 /* UIKit.framework */; };
 		B940D503167A1F0700D22F12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940D502167A1F0700D22F12 /* Foundation.framework */; };
 		B940D505167A1F0700D22F12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940D504167A1F0700D22F12 /* CoreGraphics.framework */; };
@@ -20,26 +23,22 @@
 		B940D51C167A1F0700D22F12 /* RaspberryCar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B940D51A167A1F0700D22F12 /* RaspberryCar.xcdatamodeld */; };
 		B940D541167A203F00D22F12 /* AbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B940D540167A203F00D22F12 /* AbstractViewController.m */; };
 		B940D544167A207200D22F12 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B940D543167A207200D22F12 /* MainViewController.m */; };
-		B940D548167A20F100D22F12 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = B940D547167A20F100D22F12 /* Settings.m */; };
 		B940D54B167A213700D22F12 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B940D54A167A213700D22F12 /* SettingsViewController.m */; };
 		B940D54F167A21BB00D22F12 /* RPCConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = B940D54E167A21BB00D22F12 /* RPCConnector.m */; };
-		B940D550167A2ACA00D22F12 /* libXMLRPC_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B940D53D167A1FBC00D22F12 /* libXMLRPC_iOS.a */; };
 		B940D553167A2D2000D22F12 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B940D552167A2D2000D22F12 /* MainNavigationController.m */; };
+		B986DA9D16A06ACF00A59D03 /* MotionJpegImageView.mm in Sources */ = {isa = PBXBuildFile; fileRef = B986DA9C16A06ACF00A59D03 /* MotionJpegImageView.mm */; };
 		B9BBF6A6167A535400637614 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B9BBF6A5167A535400637614 /* Icon.png */; };
 		B9BBF6A8167A535900637614 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9BBF6A7167A535900637614 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B940D53C167A1FBC00D22F12 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B940D535167A1FBC00D22F12 /* XMLRPC-iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D;
-			remoteInfo = "XMLRPC-iOS";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		B91ABB8116A18C5C003392E5 /* DSARCHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSARCHelpers.h; sourceTree = "<group>"; };
+		B91ABB8216A18C5C003392E5 /* DSJSONRPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONRPC.h; sourceTree = "<group>"; };
+		B91ABB8316A18C5C003392E5 /* DSJSONRPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJSONRPC.m; sourceTree = "<group>"; };
+		B91ABB8416A18C5C003392E5 /* DSJSONRPCError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONRPCError.h; sourceTree = "<group>"; };
+		B91ABB8516A18C5C003392E5 /* DSJSONRPCError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJSONRPCError.m; sourceTree = "<group>"; };
+		B91ABB8A16A1AA26003392E5 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		B91ABB8B16A1AA26003392E5 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 		B940D4FC167A1F0700D22F12 /* RaspberryCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaspberryCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B940D500167A1F0700D22F12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B940D502167A1F0700D22F12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,13 +54,10 @@
 		B940D516167A1F0700D22F12 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B940D518167A1F0700D22F12 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B940D51B167A1F0700D22F12 /* RaspberryCar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RaspberryCar.xcdatamodel; sourceTree = "<group>"; };
-		B940D535167A1FBC00D22F12 /* XMLRPC-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "XMLRPC-iOS.xcodeproj"; path = "kdbdallas-xmlrpc-ios-f28a13cc16ae/XMLRPC-iOS.xcodeproj"; sourceTree = "<group>"; };
 		B940D53F167A203F00D22F12 /* AbstractViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractViewController.h; sourceTree = "<group>"; };
 		B940D540167A203F00D22F12 /* AbstractViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractViewController.m; sourceTree = "<group>"; };
 		B940D542167A207200D22F12 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		B940D543167A207200D22F12 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		B940D546167A20F100D22F12 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
-		B940D547167A20F100D22F12 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 		B940D549167A213700D22F12 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		B940D54A167A213700D22F12 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		B940D54D167A21BB00D22F12 /* RPCConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPCConnector.h; sourceTree = "<group>"; };
@@ -69,6 +65,8 @@
 		B940D551167A2D2000D22F12 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
 		B940D552167A2D2000D22F12 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
 		B940D554167A37FC00D22F12 /* RPCSettingsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPCSettingsDelegate.h; sourceTree = "<group>"; };
+		B986DA9B16A06ACF00A59D03 /* MotionJpegImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionJpegImageView.h; sourceTree = "<group>"; };
+		B986DA9C16A06ACF00A59D03 /* MotionJpegImageView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MotionJpegImageView.mm; sourceTree = "<group>"; };
 		B9BBF6A5167A535400637614 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		B9BBF6A7167A535900637614 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B940D550167A2ACA00D22F12 /* libXMLRPC_iOS.a in Frameworks */,
 				B940D501167A1F0700D22F12 /* UIKit.framework in Frameworks */,
 				B940D503167A1F0700D22F12 /* Foundation.framework in Frameworks */,
 				B940D505167A1F0700D22F12 /* CoreGraphics.framework in Frameworks */,
@@ -110,7 +107,6 @@
 		B940D4FF167A1F0700D22F12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B940D535167A1FBC00D22F12 /* XMLRPC-iOS.xcodeproj */,
 				B940D500167A1F0700D22F12 /* UIKit.framework */,
 				B940D502167A1F0700D22F12 /* Foundation.framework */,
 				B940D504167A1F0700D22F12 /* CoreGraphics.framework */,
@@ -147,14 +143,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B940D536167A1FBC00D22F12 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B940D53D167A1FBC00D22F12 /* libXMLRPC_iOS.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		B940D53E167A1FEF00D22F12 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,8 +162,8 @@
 		B940D545167A20DE00D22F12 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				B940D546167A20F100D22F12 /* Settings.h */,
-				B940D547167A20F100D22F12 /* Settings.m */,
+				B91ABB8A16A1AA26003392E5 /* Settings.h */,
+				B91ABB8B16A1AA26003392E5 /* Settings.m */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -183,6 +171,13 @@
 		B940D54C167A21A100D22F12 /* Connector */ = {
 			isa = PBXGroup;
 			children = (
+				B91ABB8116A18C5C003392E5 /* DSARCHelpers.h */,
+				B91ABB8216A18C5C003392E5 /* DSJSONRPC.h */,
+				B91ABB8316A18C5C003392E5 /* DSJSONRPC.m */,
+				B91ABB8416A18C5C003392E5 /* DSJSONRPCError.h */,
+				B91ABB8516A18C5C003392E5 /* DSJSONRPCError.m */,
+				B986DA9B16A06ACF00A59D03 /* MotionJpegImageView.h */,
+				B986DA9C16A06ACF00A59D03 /* MotionJpegImageView.mm */,
 				B940D54D167A21BB00D22F12 /* RPCConnector.h */,
 				B940D54E167A21BB00D22F12 /* RPCConnector.m */,
 			);
@@ -237,28 +232,12 @@
 			mainGroup = B940D4F1167A1F0700D22F12;
 			productRefGroup = B940D4FD167A1F0700D22F12 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = B940D536167A1FBC00D22F12 /* Products */;
-					ProjectRef = B940D535167A1FBC00D22F12 /* XMLRPC-iOS.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				B940D4FB167A1F0700D22F12 /* RaspberryCar */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		B940D53D167A1FBC00D22F12 /* libXMLRPC_iOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libXMLRPC_iOS.a;
-			remoteRef = B940D53C167A1FBC00D22F12 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B940D4FA167A1F0700D22F12 /* Resources */ = {
@@ -286,10 +265,13 @@
 				B940D51C167A1F0700D22F12 /* RaspberryCar.xcdatamodeld in Sources */,
 				B940D541167A203F00D22F12 /* AbstractViewController.m in Sources */,
 				B940D544167A207200D22F12 /* MainViewController.m in Sources */,
-				B940D548167A20F100D22F12 /* Settings.m in Sources */,
 				B940D54B167A213700D22F12 /* SettingsViewController.m in Sources */,
 				B940D54F167A21BB00D22F12 /* RPCConnector.m in Sources */,
 				B940D553167A2D2000D22F12 /* MainNavigationController.m in Sources */,
+				B986DA9D16A06ACF00A59D03 /* MotionJpegImageView.mm in Sources */,
+				B91ABB8616A18C5C003392E5 /* DSJSONRPC.m in Sources */,
+				B91ABB8716A18C5C003392E5 /* DSJSONRPCError.m in Sources */,
+				B91ABB8C16A1AA26003392E5 /* Settings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +315,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "kdbdallas-xmlrpc-ios-f28a13cc16ae/**";
+				USER_HEADER_SEARCH_PATHS = "xmlrpc-ios/**";
 			};
 			name = Debug;
 		};
@@ -356,7 +338,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "kdbdallas-xmlrpc-ios-f28a13cc16ae/**";
+				USER_HEADER_SEARCH_PATHS = "xmlrpc-ios/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

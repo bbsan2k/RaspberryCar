@@ -1,6 +1,1 @@
-INSTUPServer.serverDaemon
-/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/serverDaemon.py
-INFOS:&&1|1|2|0&&2|3|2|1
-MyDaemon=1
-run=3
-Server.serverDaemon=2
+DELSTRsrc.Server.testModule

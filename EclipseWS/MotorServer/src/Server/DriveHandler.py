@@ -19,14 +19,30 @@ class driveHandler:
 
     def drive(self, direction):
         if (direction == "stop"):
-            ser.write("00")
+            ser.write("stp")
         elif (direction == "fwd"):
-            ser.write("11")
+            ser.write("fwd")
         elif (direction == "right"):
-            ser.write("21")
+            ser.write("rgt")
         elif (direction == "left"):
-            ser.write("12")
+            ser.write("lft")
+        elif (direction == "bwd"):
+            ser.write("bwd")
+        return True
         
+    def setVelocity(self, velo):
+        if (int(velo) < 10):
+            ser.write("vel00"+str(velo))
+        elif (int(velo) < 100):
+            ser.write("vel0"+str(velo))
+        elif (int(velo) < 255):
+            ser.write("vel"+str(velo))
+        elif (int(velo) < 0):
+            ser.write("vel000")
+        else: 
+            ser.write("vel255");
+        return True
+    
     def __del__(self):
         ser.close()
 
