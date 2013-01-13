@@ -1,0 +1,21 @@
+'''
+Created on 08.01.2013
+
+@author: bbsan
+'''
+##import Drivehandler
+##import threading
+from SimpleXMLRPCServer import SimpleXMLRPCServer as Server
+
+def drive(direction):
+    print("test1111")
+    
+
+        
+        
+        
+if __name__ == "__main__":
+    rpcSrv = Server(("",81))
+    rpcSrv.register_function(drive)
+    print("RPC up and running")
+    rpcSrv.serve_forever()

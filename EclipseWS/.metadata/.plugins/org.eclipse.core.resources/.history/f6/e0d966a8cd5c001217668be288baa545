@@ -1,0 +1,26 @@
+'''
+Created on 08.01.2013
+
+@author: bbsan
+'''
+##import Drivehandler
+##import threading
+from jsonrpclib.SimpleJSONRPCServer import SimpleJSONRPCServer as Server
+
+def drive(direction):
+    print(direction)
+    return "SUCCESS"
+    
+def setVelocity(velo):
+    print(velo)
+    return "SUCCESS"
+    
+        
+        
+        
+if __name__ == "__main__":
+    rpcSrv = Server(('127.0.0.1',8082))
+    rpcSrv.register_function(drive)
+    rpcSrv.register_function(setVelocity)
+    print("RPC up and running")
+    rpcSrv.serve_forever()

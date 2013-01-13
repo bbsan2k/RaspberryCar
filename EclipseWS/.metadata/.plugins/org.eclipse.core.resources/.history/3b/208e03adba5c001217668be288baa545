@@ -1,0 +1,21 @@
+'''
+Created on 08.01.2013
+
+@author: bbsan
+'''
+##import Drivehandler
+##import threading
+from jsonrpclib.SimpleJSONRPCServer import SimpleJSONRPCServer as Server
+
+def drive(direction):
+    print(direction)
+    
+
+        
+        
+        
+if __name__ == "__main__":
+    rpcSrv = Server(("127.0.0.1",8082))
+    rpcSrv.register_function(drive)
+    print("RPC up and running")
+    rpcSrv.serve_forever()
