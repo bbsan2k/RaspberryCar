@@ -37,6 +37,14 @@
     [self.jsonRPCManager callMethod:@"setVelocity" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[velo stringValue], @"velo", nil]];
 }
 
+- (void) updateValues{
+    AppDelegate *appdelegate = [AppDelegate sharedInstance];
+    NSString *stringURL = [NSString stringWithFormat:@"%@:8085",appdelegate.settings.serverAddress];
+    DebugLog(@"Url :%@",stringURL);
+    self.url = [NSURL URLWithString:stringURL];
+    self.velocity = appdelegate.settings.maxVelocity;
+    self.jsonRPCManager = [[DSJSONRPC alloc] initWithServiceEndpoint:self.url];
+}
 
 
 

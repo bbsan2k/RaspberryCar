@@ -1,6 +1,0 @@
-$def with (form)
-
-<form name="main" method="post"> 
-$:form.render()   
-<img src="http://raspberrypi:8090/?action=stream" width="752">
-</form>

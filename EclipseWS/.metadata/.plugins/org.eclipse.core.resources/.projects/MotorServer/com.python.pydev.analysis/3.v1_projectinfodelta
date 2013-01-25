@@ -1,6 +1,12 @@
-INSTUPServer.testModule
-/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/testModule.py
-INFOS:&&2|1|2|0&&2|3|2|0
-Server.testModule=2
-drive=1
-setVelocity=3
+INSTUPServer.WebServer
+/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/WebServer.py
+INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&1|6|2|0&&2|7|2|6&&2|8|2|6&&2|9|2|6
+POST=9
+GET=8
+urls=3
+Server.WebServer=2
+driveForm=5
+server=1
+webServer=6
+run=7
+render=4

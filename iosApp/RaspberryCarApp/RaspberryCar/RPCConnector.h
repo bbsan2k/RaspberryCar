@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "XMLRPCConnectionDelegate.h"
+//#import "XMLRPCConnectionDelegate.h"
 
 //@interface RPCConnector : NSObject <XMLRPCConnectionDelegate>
 @interface RPCConnector : NSObject
@@ -17,6 +17,7 @@
 
 - (void) drive:(NSString*) direction;
 - (void) setVelocity:(NSNumber*) velo;
+- (void) updateValues;
 
 
 @end

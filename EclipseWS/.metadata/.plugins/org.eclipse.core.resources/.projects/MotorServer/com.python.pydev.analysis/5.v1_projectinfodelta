@@ -1,17 +1,12 @@
-INSTUPServer.index
-/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/index.py
-INFOS:&&3|1|2|0&&3|3|2|0&&2|4|2|0&&2|5|2|0&&3|6|2|0&&3|7|2|0&&1|8|2|0&&2|9|2|8&&2|10|2|8&&2|11|2|8&&1|12|2|0&&2|9|2|12&&2|9|2|0&&1|13|2|0&&2|9|2|13&&3|14|2|0
-serverDaemon=13
-webServer=8
-run=9
-rpcServer=12
-render=6
-Server.index=2
-POST=11
-GET=10
-drive=4
-setVelocity=5
-maxVelocity=3
-driveForm=7
-server=14
-handler=1
+INSTUPServer.WebServer
+/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/WebServer.py
+INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&1|6|2|0&&3|3|2|6&&3|7|2|6&&2|8|2|6&&2|9|2|6
+POST=9
+app=7
+GET=8
+urls=3
+Server.WebServer=2
+driveForm=5
+server=1
+webServer=6
+render=4

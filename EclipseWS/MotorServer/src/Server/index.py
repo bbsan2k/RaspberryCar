@@ -9,17 +9,17 @@ from daemon import Daemon
 
 ## Drivehandler
 
-handler = DriveHandler.driveHandler()
+##handler = DriveHandler.driveHandler()
 maxVelocity = 255
 
 def drive(direction):
-    success = handler.drive(direction)
+    ##success = handler.drive(direction)
     if (success): return "Success"
     else: return "FAILED"
 
 def setVelocity(velo):
     maxVelocity = int(velo)
-    success = handler.setVelocity(maxVelocity)
+    ##success = handler.setVelocity(maxVelocity)
     if (success): return "Success"
     else: return "FAILED"
     

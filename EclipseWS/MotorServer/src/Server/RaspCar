@@ -11,7 +11,8 @@ case "$1" in
 start)
 # Starts the lighttpd deamon
 echo "Starting RaspberryCar Services"
-python /Server/index.py
+python /Server/WebServer.py 80 &
+python /Server/RPCServer.py &
 mjpg_streamer -i "/usr/lib/input_uvc.so -d /dev/video0  -r 640x480 -f 15" -o "/usr/lib/output_http.so -p 8090 -w /var/www/mjpg_streamer"
 
 ;;

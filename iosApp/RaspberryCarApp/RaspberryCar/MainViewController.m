@@ -146,16 +146,10 @@
 
 
 - (void) updateRPCController{
-    AppDelegate *appdelegate = [AppDelegate sharedInstance];
     if (!connector){
         connector = [[RPCConnector alloc] init];
     }
-    NSString *stringURL = [NSString stringWithFormat:@"%@:8090/?action=stream",appdelegate.settings.serverAddress];
-    NSURL *url = [NSURL URLWithString:stringURL];
-    imageView.url = url;
-    [imageView reloadInputViews];
-    [connector setUrl:[NSURL URLWithString:appdelegate.settings.serverAddress]];
-    [connector setVelocity:appdelegate.settings.maxVelocity];
+    [connector updateValues];
 }
 
 

@@ -3,8 +3,6 @@ Created on 08.01.2013
 
 @author: bbsan
 '''
-##import Drivehandler
-##import threading
 from jsonrpclib.SimpleJSONRPCServer import SimpleJSONRPCServer as Server
 
 def drive(direction):
@@ -24,12 +22,14 @@ def setVelocity(velo):
             print("vel255");
         return "SUCCESS"
     
+class rpcServer():
+    def run(self):
+        rpcSrv = Server(('localhost',8085))
+        rpcSrv.register_function(drive)
+        rpcSrv.register_function(setVelocity)
+        print("RPC up and running")
+        rpcSrv.serve_forever()
         
-        
-        
+
 if __name__ == "__main__":
-    rpcSrv = Server(('',8085))
-    rpcSrv.register_function(drive)
-    ##rpcSrv.register_function(setVelocity)
-    print("RPC up and running on port")
-    rpcSrv.serve_forever()
+    rpcServer().run()

@@ -1,4 +1,4 @@
 MODULES_MANAGER_V2
-src.Server.DriveHandler|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/DriveHandler.py
-src.Server.index|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/index.py
-src.Server.testModule|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/testModule.py
+src.Server.RPCServer|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/RPCServer.py
+src.Server.WebServer|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/WebServer.py
+src.Server.testWebServer|/Volumes/Macintosh HD/Dropbox/BA/EclipseWS/MotorServer/src/Server/testWebServer.py
